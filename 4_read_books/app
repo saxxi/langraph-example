@@ -1,0 +1,11 @@
+digraph {
+	ask_question
+	embed_documents
+	process_relevant_documents
+	prepare_question
+	answer_question
+	ask_question -> embed_documents
+	embed_documents -> process_relevant_documents
+	process_relevant_documents -> prepare_question
+	prepare_question -> answer_question
+}

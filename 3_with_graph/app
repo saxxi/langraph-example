@@ -1,0 +1,5 @@
+digraph {
+	get_animal
+	create_joke
+	get_animal -> create_joke
+}
